@@ -38,7 +38,7 @@ int main()
 
 			//make sure user choose Y or N
 			while (choice != "Y" && choice != "N") {
-				cout << "\nPlease inter Y or N\n";
+				cout << "\nPlease enter Y or N\n";
 				cin >> choice;
 			}
 
@@ -49,7 +49,7 @@ int main()
 				cout << "\nWhich part you want to change? (Enter 1 for changing name, 2 for changing age, 3 for changing occupation)\n";
 				cin >> part;
 
-				// for user change what is wrong
+				// for user change the part that is wrong
 				switch (part)
 				{
 				case 1:
